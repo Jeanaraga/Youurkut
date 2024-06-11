@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Criar Novo Perfil</title>
+</head>
+<body>
+    <main class="container-principal">
+        <div class="container-secundario container-imagem-registro">
+           <h1>Crie seu Perfil no Yourkot</h1>
+        </div>
+        <div class="container-secundario container-formulario">
+            <div class="titulo-formulario">
+                <h2>Comece Agora!</h2>
+                <span>Preencha todos os dados!</span>
+            </div>
+            <form action="" class="formulario">
+                <input type="text" name="nome" id="nome" class="input-pequeno" placeholder="Nome" required>
+                <input type="text" name="sobrenome" id="sobrenome" class="input-pequeno" placeholder="Sobrenome" required>
+                <input type="email" name="email" id="email" class="input-normal" placeholder="Email" required>
+                <input type="password" name="senha" id="senha" class="input-pequeno" placeholder="Senha" required>
+                <input type="password" name="confirmar-senha" id="confirmar-senha" class="input-pequeno" placeholder="Confimar senha" required>
+                <label for="perfil-imagem" class="label-perfil">
+                    <span>Selecionar Foto de Perfil </span>
+                    <span class="material-symbols-outlined">
+                        manage_search
+                    </span>
+                    <input type="file" name="perfil-imagem" id="perfil-imagem" >
+                </label>
+                
+
+                <label for="termos-aceite">
+                    <input type="checkbox" id="termos-aceite" name="termos-aceite" required>
+                    Aceito os Termos e Condições
+                </label>
+
+                <button type="submit" class="botao-cadastrar">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
