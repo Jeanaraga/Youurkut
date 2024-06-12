@@ -10,26 +10,35 @@
 <body>
     <main class="container-principal">
         <div class="container-secundario container-imagem-registro">
-           <h1>Crie seu Perfil no Yourkot</h1>
+           <h1>Bem-Vindo ao <b>Yorkut</b></h1>
+           <p>"Conectando corações, memórias e amigos: Yorkut, onde sua rede social é o seu mundo!"</p>
         </div>
         <div class="container-secundario container-formulario">
             <div class="titulo-formulario">
-                <h2>Comece Agora!</h2>
-                <span>Preencha todos os dados!</span>
+                <h2>Login</h2>
+                <span>Preencha todos os campos!</span>
             </div>
             <form action="" class="formulario">
-                <input type="text" name="nome" id="nome" class="input-pequeno" placeholder="Nome" required>
-                <input type="text" name="sobrenome" id="sobrenome" class="input-pequeno" placeholder="Sobrenome" required>
-                <input type="email" name="email" id="email" class="input-normal" placeholder="Email" required>
-                <input type="password" name="senha" id="senha" class="input-pequeno" placeholder="Senha" required>
-                <input type="password" name="confirmar-senha" id="confirmar-senha" class="input-pequeno" placeholder="Confimar senha" required>
+                <!-- <input type="text" name="nome" id="nome" class="input-pequeno" placeholder="Nome" required>
+                <input type="text" name="sobrenome" id="sobrenome" class="input-pequeno" placeholder="Sobrenome" required> -->
+                
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="input-normal" placeholder="usuario@email.com" required>
+                </div>
+                <div class="input-box">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" class="input-normal" placeholder="suasenha123" required>
+                </div>
+
+                <!-- <input type="password" name="confirmar-senha" id="confirmar-senha" class="input-pequeno" placeholder="Confimar senha" required>
                 <label for="perfil-imagem" class="label-perfil">
                     <span>Selecionar Foto de Perfil </span>
                     <span class="material-symbols-outlined">
                         manage_search
                     </span>
                     <input type="file" name="perfil-imagem" id="perfil-imagem" >
-                </label>
+                </label> -->
                 
 
                 <label for="termos-aceite">
