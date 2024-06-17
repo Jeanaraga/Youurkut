@@ -17,7 +17,8 @@ body {
   justify-content: center;
   background: linear-gradient(45deg, #2e2e2e, #181818);
   background-size: 200%;
-  animation: colors 30s ease infinite;
+  animation: colors 20s ease infinite;
+  transition: all .5s ease;
 }
 
 @keyframes colors {
@@ -90,7 +91,7 @@ body {
 
 .container-formulario {
   background-color: rgba(46, 46, 46, 0.7176470588);
-  background: linear-gradient(#2e2e2e, #181818) padding-box, linear-gradient(90deg, #004aad, #40c9ff) border-box;
+  background: linear-gradient(#2e2e2e, #2e2e2e) padding-box, linear-gradient(90deg, #004aad, #40c9ff) border-box;
   border: 2px solid transparent;
 
   padding: 20px;
@@ -101,6 +102,7 @@ body {
   border-radius: 16px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   color: #fff;
+  transition: .5s;
 
   .titulo-formulario {
     text-align: center;
@@ -231,6 +233,59 @@ footer {
       color: #004aad;
       transition: all ease-in 0.5s;
     }
+  }
+}
+
+
+
+// Modo Noturno
+
+.botao-noturno {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+
+  span {
+    padding: 5px;
+    font-size: 24px;
+    color: #ffbb00;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+body.light {
+  background: linear-gradient(45deg,#d6d6d6,#a5a5a5);
+  color: #000;
+
+  .container-imagem-registro {
+    background-color: none;
+    color: #000;
+  }
+
+  .container-formulario {
+    background-color: rgba(46, 46, 46, 0.7176470588);
+    background: linear-gradient(#d6d6d6, #d6d6d6) padding-box, linear-gradient(90deg, #004aad, #40c9ff) border-box;
+    border: 2px solid transparent;
+    color: #000;
+
+    .input-box input {
+        background: linear-gradient(#d6d6d6, #d6d6d6) padding-box, linear-gradient(90deg, #004aad, #40c9ff) border-box;
+        border: 2px solid transparent;
+        color: #000;
+    }
+
+    .info a {
+      color: #000;
+    }
+  }
+
+  footer  {
+    color: #000;
   }
 }
 
