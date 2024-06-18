@@ -188,3 +188,49 @@ footer a:hover {
   color: #004AAD;
   transition: all ease-in 0.5s;
 }
+
+
+/* Modo Noturno */
+
+.botao-noturno {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.botao-noturno span {
+  padding: 5px;
+  font-size: 24px;
+  color: #ffbb00;
+  text-align: center;
+  font-weight: bold;
+}
+
+body.light {
+  background: linear-gradient(45deg, #d6d6d6, #a5a5a5);
+  color: #000;
+}
+body.light .container-imagem-registro {
+  background-color: none;
+  color: #000;
+}
+body.light .container-formulario, body.light .genero-inputs, body.light .inputs input {
+  background-color: rgba(46, 46, 46, 0.7176470588);
+  background: linear-gradient(#d6d6d6, #d6d6d6) padding-box, linear-gradient(90deg, #004aad, #40c9ff) border-box;
+  border: 2px solid transparent;
+  color: #000;
+}
+
+body.light .radio-button, body.light .genero-inputs, body.light .container-genero {
+  color: #000;
+}
+
+body.light .container-formulario .info a {
+  color: #000;
+}
+body.light footer, body.light footer a {
+  color: #000;
+}
