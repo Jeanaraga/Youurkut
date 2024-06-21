@@ -1,109 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="../logo/Y-corrigida-removebg-preview.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="../src/css/cadastro.css" />
-    <title>Cadastre-se Gratuitamente!</title>
-  </head>
 
-  <body>
-    <div class="botao-noturno" id="botao-noturno">
-      <span class="material-symbols-outlined" id="icon-mode">
-          light_mode
-          </span>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../logo/Y-corrigida-removebg-preview.png" type="image/x-icon" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="../src/css/cadastro.css" />
+  <title>Cadastre-se Gratuitamente!</title>
+</head>
 
-    <main class="container">
-      <div class="container-formulario">
-        <div class="titulo-formulario">
-          <h1>Cadastre-se</h1>
-          <p>Veja o que seus amigos estão fazendo</p>
-        </div>
-        <form class="formulario">
-          <div class="inputs">
-            <label for="nome">Nome</label>
-            <input
-              type="text"
-              name="nome"
-              id="nome"
-              placeholder="Digite seu nome"
-              required
-            />
-          </div>
-          <div class="inputs">
-            <label for="nome-usuario">Nome de usuario</label>
-            <input
-              type="text"
-              name="nome-usuario"
-              id="nome-usuario"
-              placeholder="Digite seu nome de usuario"
-              required
-            />
-          </div>
-          <div class="inputs">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="example@gmail.com"
-              required
-            />
-          </div>
-          <div class="inputs">
-            <label for="senha">Senha</label>
-            <input
-              type="password"
-              name="senha"
-              id="senha"
-              placeholder="Digite sua senha"
-              required
-            />
-          </div>
+<body>
+  <div class="botao-noturno" id="botao-noturno">
+    <span class="material-symbols-outlined" id="icon-mode">
+      light_mode
+    </span>
+  </div>
 
-          <div class="container-genero">
-            <span>Gênero</span>
-            <div class="genero-inputs">
-              <div class="radio-button">
-                <input
-                  type="radio"
-                  name="example-radio"
-                  value="option1"
-                  id="masculino"
-                />
-                <label for="masculino">Masculino</label>
-              </div>
-
-              <div class="radio-button">
-                <input
-                  type="radio"
-                  name="example-radio"
-                  value="option2"
-                  id="feminino"
-                  class="radio"
-                />
-                <label for="feminino">Feminino</label>
-              </div>
-            </div>
-          </div>
-          <button>Cadastre-se</button>
-        </form>
+  <main class="container">
+    <div class="container-formulario">
+      <div class="titulo-formulario">
+        <h1>Cadastre-se</h1>
+        <p>Veja o que seus amigos estão fazendo</p>
       </div>
-    </main>
-
-    <footer>
-      <p>&copy;Yorkut 2024</p>
-      <a href="./pages/sobre.html">Sobre nós</a>
-    </footer>
 
 
-    <script src="../src/js/main.js"></script>
-  </body>
+      <form class="formulario">
+        <div class="inputs">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required />
+        </div>
+        <div class="inputs">
+          <label for="nome-usuario">Nome de usuario</label>
+          <input type="text" name="nome-usuario" id="nome-usuario" placeholder="Digite seu nome de usuario" required />
+        </div>
+        <div class="inputs">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="example@gmail.com" required />
+        </div>
+        <div class="inputs">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required />
+        </div>
+        <button>Cadastre-se</button>
+      </form>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy;Yorkut 2024</p>
+    <a href="./pages/sobre.html">Sobre nós</a>
+  </footer>
+
+
+  <script src="../src/js/main.js"></script>
+</body>
+
 </html>
