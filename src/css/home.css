@@ -100,22 +100,6 @@ body {
   color: red;
 }
 
-.modal-comentarios {
-  display: none;
-  max-width: 25%;
-  width: 25%;
-  border: 1px solid red;
-  position: fixed;
-  min-height: 100%;
-  top: 0;
-  right: 0;
-  overflow: hidden;
-}
-
-.modal-comentarios.ativo {
-  display: flex;
-}
-
 main {
   width: calc(75% - 200px);
   height: 100%;
@@ -163,7 +147,6 @@ main .container-postagens {
 }
 main .container-postagens .postagem {
   width: 100%;
-  min-height: 80vh;
   background: linear-gradient(#181818, #181818) padding-box, linear-gradient(90deg, #004aad, #40c9ff) border-box;
   border-bottom: 0.1px solid transparent;
   padding: 20px 0;
@@ -242,6 +225,9 @@ main .container-postagens .postagem .acao-post .acao-btn span {
 }
 main .container-postagens .postagem .acao-post .acao-btn span:hover {
   color: #faf768;
+}
+main .container-postagens .postagem .acao-post .icon-like.ativo {
+  color: yellow;
 }
 
 /*# sourceMappingURL=home.css.map */
