@@ -21,11 +21,10 @@ body {
 // Sidebar
 @import './sidebar.scss';
 
-// Modal Comentarios
-@import './modal-comentario.scss';
-
-// Main (Bloco onde vai ter tudo menos a Sidebar)
-@import './home-main.scss';
-
 // Container Lateral
-@import './container-lateral.scss'
+@import './container-lateral.scss';
+
+// Main
+@import './ver-perfil-main.scss';
+
+
